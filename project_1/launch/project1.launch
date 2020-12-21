@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="project_1" type="talker1.py" name="talker1" />
+    <node pkg="project_1" type="talker2.py" name="talker2" />
+    <node pkg="project_1" type="listener.py" name="listener"/> 
+</launch>
